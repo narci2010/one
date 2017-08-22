@@ -139,7 +139,7 @@
 
 1.  将one-ui/dist文件夹下面的编译出来的文件拷贝到one-main/src/main/resources/static文件夹下面（打包完成就删掉拷贝过去的内容，没必要提交）
 2.  进入one文件夹
-3.  执行命令编译：`mvn clean pakcage -Dmaven.test.skip=true`
+3.  执行命令编译：`mvn clean package -Dmaven.test.skip=true`
 4.  执行命令启动程序：`java -jar one-main\target\one-main-0.0.1-SNAPSHOT.jar`
 5.  访问`http://localhost:8080/login.html`登录系统
 
